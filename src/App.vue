@@ -2,11 +2,13 @@
   <div>
     <Header />
 
-    <router-link class="bg-blue-400 text-white rounded px-2 py-1" to="/"
-      >Home</router-link
+    <router-link class="text-grey rounded px-2 py-1" to="/">Home</router-link>
+    <router-link class="text-grey rounded px-2 py-1" to="/about"
+      >About</router-link
     >
-    <router-link to="/about">About</router-link>
-    <router-link to="/Form">Form</router-link>
+    <router-link class="text-grey rounded px-2 py-1" to="/Form"
+      >Form</router-link
+    >
 
     <router-view></router-view>
   </div>
