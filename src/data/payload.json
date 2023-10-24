@@ -1,0 +1,27 @@
+{
+    "id": 12345,
+    "date": "2020-12-15T08:30:00",
+    "customer": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St.",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    "items": [
+      {
+        "product": "Widget",
+        "quantity": 2,
+        "price": 9.99
+      },
+      {
+        "product": "Gadget",
+        "quantity": 1,
+        "price": 19.99
+      }
+    ]
+  }
+  
