@@ -1,7 +1,13 @@
 import { createApp } from "vue";
-import "./assets/css/tailwind.css"; // Import Tailwind CSS here
+import { autoAnimatePlugin } from "@formkit/auto-animate/vue";
+import router from "./routes/router";
 import App from "./App.vue";
-import router from "./router";
+import "./assets/css/tailwind.css";
 import { createPinia } from "pinia";
 
-createApp(App).use(createPinia()).use(router).mount("#app");
+createApp(App)
+  .use(autoAnimatePlugin)
+  .use(createPinia())
+  .use(router)
+
+  .mount("#app");
